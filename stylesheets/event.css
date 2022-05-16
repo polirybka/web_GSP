@@ -1,18 +1,41 @@
 .heading{
   display: block;
   width:100%;
-  position: absolute;
+  height:210px;
+  position: relative;
   overflow: hidden;
 }
-.heading h1{
-  font-family: 'Piazzolla-Regular';
+.heading a{
+  font-family: 'Piazzolla-Light';
   font-size: 215px;
   position: absolute;
   color: black;
-  z-index:4;
-  margin-left:-20px;
-  margin-top:-50px;
+  width:100%;
+  margin-left: -30px;
+  margin-top: -50px;
   white-space: nowrap;
+  text-decoration: none;
+}
+nav{
+  position: relative;
+  display: block;
+  width:100%;
+  height: 50px;
+}
+.menu-items{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.menu-items a{
+  line-height: 50px;
+  color:black;
+  cursor: pointer;
+  ont-family: 'Piazzolla-Regular';
+  font-size: 24px;
+}
+.menu-items a:hover{
+  color: #CAFF44;
 }
 .poster1{
   position: relative;
@@ -22,9 +45,10 @@
   z-index:3;
 }
 .poster2{
-  position: absolute;
+  position:relative;
+  display: block;
   width: 15%;
-  margin-top: 29%;
+  margin-top: 3%;
   margin-left: 5%;
   z-index:3;
 }
