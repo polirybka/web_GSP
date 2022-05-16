@@ -1,0 +1,71 @@
+#yeah{
+  max-width: 100%;
+  overflow: hidden;
+}
+.pVAR2{
+  font-family: 'Piazzolla-Regular';
+  font-size: 215px;
+  position: absolute;
+  color: white;
+  z-index:2;
+  margin-left:-20px;
+  margin-top:-50px;
+  white-space: nowrap;
+}
+section {
+  display: block;
+width: 100%;
+height: 100%;
+position: relative;
+overflow: hidden;
+}
+.links{
+  display: block;
+  position: absolute;
+  margin-left:25%;
+  margin-top:16%;
+}
+#nubexVideo{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.head{
+  font-family: 'Piazzolla-Regular';
+  font-size: 32px;
+  position: absolute;
+  color: white;
+  z-index:2;
+  white-space: nowrap;
+  overflow: visible;
+}
+.head:hover{
+  color: #CAFF44;
+}
+#p1{
+  margin-left:350px;
+}
+#p2{
+  margin-left:610px;
+  margin-top:100px;
+}
+#p3{
+  margin-left:740px;
+  margin-top:220px;
+}
+#p4{
+  margin-left:0px;
+  margin-top:150px;
+}
+#p5{
+  margin-left:570px;
+  margin-top:360px;
+}
+#p6{
+  margin-left:100px;
+  margin-top:440px;
+}
+.p1_lil{
+  position: absolute;
+  width:20%;
+}

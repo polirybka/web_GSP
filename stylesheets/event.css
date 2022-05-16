@@ -1,0 +1,66 @@
+.heading{
+  display: block;
+  width:100%;
+  position: absolute;
+  overflow: hidden;
+}
+.heading h1{
+  font-family: 'Piazzolla-Regular';
+  font-size: 215px;
+  position: absolute;
+  color: black;
+  z-index:4;
+  margin-left:-20px;
+  margin-top:-50px;
+  white-space: nowrap;
+}
+.poster1{
+  position: relative;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster2{
+  position: absolute;
+  width: 15%;
+  margin-top: 29%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster3{
+  position: absolute;
+  width: 15%;
+  margin-top: 32%;
+  margin-left: 5%;
+  z-index:3;
+  display: none;
+}
+txt1{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 22%;
+  font-size: 18px;
+  font-family: 'Piazzolla-Regular';
+  color: black;
+  z-index:3;
+}
+txt2{
+  position: absolute;
+  margin-top: 31%;
+  margin-left: 22%;
+  font-size: 18px;
+  font-family: 'Piazzolla-Regular';
+  color: black;
+  z-index:3;
+}
+
+.panel_1{
+  width: 100%;
+  margin-top:4%;
+  position: absolute;
+  background-color: white;
+  height: 150px;
+  z-index:2;
+  opacity: 67%;
+}

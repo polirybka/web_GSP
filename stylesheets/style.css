@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "content.css";
+@import "situation.css";
+@import "VAR2.css";
+@import "contentvar_2.css";
+@import "event.css";
+@font-face{
+	font-family: 'Piazzolla-Regular';
+	src: url(../fonts/Piazzolla-Regular.otf);
+}

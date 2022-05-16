@@ -1,0 +1,89 @@
+.header{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6,24px);
+  border-bottom: 2px solid black;
+}
+div:nth-child(2){
+  grid-row: 2/3;
+  grid-column: 3/4;
+  font-size: 24px;
+  text-align: center;
+}
+div:nth-child(3){
+  grid-row: 2/3;
+  grid-column:4/5;
+  font-size: 24px;
+  text-align: center;
+}
+div:nth-child(5){
+  grid-row: 5/6;
+  grid-column:3/4;
+  font-size: 24px;
+  text-align: center;
+}
+div:nth-child(6){
+  grid-row: 3;
+  grid-column:3/7;
+  border-bottom: 2px solid black;
+}
+div:nth-child(7){
+  grid-row: 1/7;
+  grid-column:2;
+  border-right: 2px solid black;
+}
+.poster1{
+  position: absolute;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster2{
+  position: absolute;
+  width: 15%;
+  margin-top: 29%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster3{
+  position: absolute;
+  width: 15%;
+  margin-top: 32%;
+  margin-left: 5%;
+  z-index:3;
+  display: none;
+}
+txt1{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 22%;
+  font-size: 18px;
+  font-family: 'Piazzolla-Regular';
+  color: black;
+  z-index:3;
+}
+txt2{
+  position: absolute;
+  margin-top: 31%;
+  margin-left: 22%;
+  font-size: 18px;
+  font-family: 'Piazzolla-Regular';
+  color: black;
+  z-index:3;
+}
+.boo{
+  width:100%;
+  z-index:1;
+  position: absolute;
+  height: 900px;
+}
+.panel_1{
+  width: 100%;
+  margin-top:4%;
+  position: absolute;
+  background-color: white;
+  height: 150px;
+  z-index:2;
+  opacity: 67%;
+}
