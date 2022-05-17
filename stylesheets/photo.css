@@ -1,0 +1,43 @@
+.heading_dark{
+  display: block;
+  width:100%;
+  height:210px;
+  position: relative;
+  overflow: hidden;
+}
+.heading_dark a{
+  font-family: 'Piazzolla-Light';
+  font-size: 215px;
+  position: absolute;
+  color: white;
+  width:100%;
+  margin-left: -30px;
+  margin-top: -50px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+nav{
+  position: relative;
+  display: block;
+  width:100%;
+  height: 50px;
+}
+.menu-items_dark{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.menu-items_dark a{
+  line-height: 50px;
+  color:white;
+  cursor: pointer;
+  ont-family: 'Piazzolla-Regular';
+  font-size: 24px;
+}
+.menu-items_dark a:hover{
+  color: #CAFF44;
+}
+#dom_1{
+  width:45%;
+  margin-left: 3%;
+}

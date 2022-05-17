@@ -1,11 +1,12 @@
 @import "reset.css";
 @import "content.css";
 @import "event.css";
-@font-face{
-	font-family: 'Piazzolla-Regular';
-	src: url(../fonts/Piazzolla-Regular.otf);
-};
+@import "photo.css";
 @font-face{
 	font-family: 'Piazzolla-Light';
 	src: url(../fonts/Piazzolla-Light.otf);
+}
+@font-face{
+	font-family: 'Piazzolla-Regular';
+	src: url(../fonts/Piazzolla-Regular.otf);
 }
