@@ -23,28 +23,25 @@
 // });
 
 $(document).ready(function() {
-$('.poster1')
-.on("mouseenter", function() {
+$('.poster1').on({
+mouseenter: function() {
    $('body').css('background', "url(./img/background_poster_1.png)");
    $('a').css('color','#CAFF44');
-});
-})
-$('.poster1')
-.on("mouseleave", function() {
+},
+mouseleave: function() {
    $('body').css('background', 'none');
    $('a').css('color','black');
- });
-
-$(document).ready(function() {
- $('.poster2')
- .on("mouseenter", function() {
+ }
+})
+ $('.poster2').on({
+ mouseenter: function() {
     $('body').css('background', "url(./img/background_poster_2.png)");
- });
- })
- .on("mouseleave", function() {
+ },
+ mouseleave: function() {
     $('body').css('background', 'none');
-  });
-
+  }
+});
+});
 // $(document).ready(function() {
 //   $('#p1').hover(function() {
 //       $($(this).data('id')).show();

@@ -16,6 +16,9 @@
   white-space: nowrap;
   text-decoration: none;
 }
+#photo_here{
+  color: #CAFF44;
+}
 nav{
   position: relative;
   display: block;
@@ -37,7 +40,143 @@ nav{
 .menu-items_dark a:hover{
   color: #CAFF44;
 }
+.footer{
+  width:100%;
+  height:550px;
+  background-color:#CAFF44;
+  margin-top:270%;
+  position: absolute;
+}
 #dom_1{
   width:45%;
   margin-left: 3%;
+  margin-top:2%;
+  position: absolute;
+  z-index: 1;
+}
+#dom_2{
+  width:25%;
+  margin-left: 20%;
+  margin-top:16%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_3{
+  width:25%;
+  margin-left: 61%;
+  margin-top:8%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_4{
+  width:25%;
+  margin-left: 70%;
+  margin-top:35%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_5{
+  width:25%;
+  margin-left: 40%;
+  margin-top:40%;
+  z-index: 1;
+  position: absolute;
+}
+#dom_6{
+  width:25%;
+  margin-left: 3%;
+  margin-top:60%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_7{
+  width:33%;
+  margin-left: 5%;
+  margin-top:44%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_8{
+  width:25%;
+  margin-left: 47%;
+  margin-top:65%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_9{
+  width:25%;
+  margin-left: 8%;
+  margin-top:75%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_10{
+  width:75%;
+  margin-left: 11%;
+  margin-top:86%;
+  z-index: 1;
+  position: absolute;
+}
+#dom_11{
+  width:25%;
+  margin-left: 72%;
+  margin-top:120%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_12{
+  width:25%;
+  margin-left: 16%;
+  margin-top:122%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_13{
+  width:25%;
+  margin-left: 37%;
+  margin-top:145%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_14{
+  width:65%;
+  margin-left: 17%;
+  margin-top:170%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_15{
+  width:35%;
+  margin-left: 12%;
+  margin-top:185%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_16{
+  width:25%;
+  margin-left: 33%;
+  margin-top:200%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_17{
+  width:25%;
+  margin-left: 67%;
+  margin-top:195%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_18{
+  width:35%;
+  margin-left: 8%;
+  margin-top:215%;
+  z-index: 2;
+  position: absolute;
+}
+#dom_19{
+  width:25%;
+  margin-left: 53%;
+  margin-top:235%;
+  z-index: 1;
+  position: absolute;
 }
