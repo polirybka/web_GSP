@@ -29,6 +29,7 @@ nav{
   display:flex;
   justify-content: space-between;
   margin-left: 5%;
+  margin-right: 5%;
 }
 .menu-items_dark a{
   line-height: 50px;

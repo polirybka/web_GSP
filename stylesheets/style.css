@@ -2,6 +2,7 @@
 @import "content.css";
 @import "event.css";
 @import "photo.css";
+@import "kvest_choose.css";
 @font-face{
 	font-family: 'Piazzolla-Light';
 	src: url(../fonts/Piazzolla-Light.otf);

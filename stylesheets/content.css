@@ -8,8 +8,8 @@
   position: absolute;
   color: white;
   z-index:2;
-  margin-left:-20px;
-  margin-top:-50px;
+  top:-5%;
+  left:-1%;
   white-space: nowrap;
 }
 section {
@@ -22,13 +22,12 @@ overflow: hidden;
 .links{
   display: block;
   position: absolute;
-  margin-left:25%;
-  margin-top:16%;
+  left:25%;
+  top:30%;
 }
 #nubexVideo{
   width:100%;
-  height:100%;
-  overflow: hidden;
+  height: 90%;
 }
 .head{
   font-family: 'Arsenal-Regular';
@@ -68,4 +67,10 @@ overflow: hidden;
 .p1_lil{
   position: absolute;
   width:20%;
+}
+.thumb-item{
+  height:auto ;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
 }

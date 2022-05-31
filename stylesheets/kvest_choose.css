@@ -1,0 +1,32 @@
+#kvest_main_1{
+  width:80%;
+  margin-left:10%;
+  margin-top:5%;
+  position: relative;
+}
+#kvest_main_2{
+  width:80%;
+  margin-left:10%;
+  margin-top:8%;
+  position: relative;
+}
+#kvest_main_3{
+  width:80%;
+  margin-left:10%;
+  margin-top:8%;
+  position: relative;
+}
+.kvests{
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: auto;
+}
+.kwest:hover{
+  outline: 2px solid #CAFF44;
+}
+#arrow{
+  position: absolute;
+  left: 94%;
+  top:38%;
+}
