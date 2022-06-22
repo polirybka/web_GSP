@@ -1,42 +1,6 @@
-.heading{
-  display: block;
-  width:100%;
-  height:210px;
-  position: relative;
-  overflow: hidden;
-}
-.heading a{
-  font-family: 'Piazzolla-Light';
-  font-size: 215px;
-  position: absolute;
-  color: black;
-  width:100%;
-  margin-left: -30px;
-  margin-top: -50px;
-  white-space: nowrap;
-  text-decoration: none;
-}
-nav{
-  position: relative;
-  display: block;
-  width:100%;
-  height: 50px;
-}
-.menu-items{
-  display:flex;
-  justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.menu-items a{
-  line-height: 50px;
-  color:black;
-  cursor: pointer;
-  ont-family: 'Piazzolla-Regular';
-  font-size: 24px;
-}
-.menu-items a:hover{
-  color: #CAFF44;
+
+body{
+  transition: all 2s ease 0s;
 }
 .poster1{
   position: relative;
@@ -44,6 +8,17 @@ nav{
   margin-top: 3%;
   margin-left: 5%;
   z-index:3;
+  display: inline-block;
+}
+.description{
+  line-height: 20px;
+  color:white;
+  cursor: pointer;
+  font-family: 'Arsenal-Regular';
+  font-size: 18px;
+  position:absolute;
+  margin-top: -9%;
+  margin-left: 25%;
 }
 .poster2{
   position:relative;
@@ -54,12 +29,36 @@ nav{
   z-index:3;
 }
 .poster3{
-  position: absolute;
+  position: relative;
+  display: block;
   width: 15%;
-  margin-top: 32%;
+  margin-top: 3%;
   margin-left: 5%;
   z-index:3;
-  display: none;
+}
+.poster4{
+  position: relative;
+  display: block;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster5{
+  position: relative;
+  display: block;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index:3;
+}
+.poster6{
+  position: relative;
+  display: block;
+  width: 15%;
+  margin-top: 3%;
+  margin-left: 5%;
+  z-index:3;
 }
 txt1{
   position: absolute;

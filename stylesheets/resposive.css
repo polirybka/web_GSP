@@ -1,0 +1,12 @@
+@media only screen and  (min-device-width: 823px) and (max-device-width: 1024px){
+.heading_dark a{
+    font-size: 13.438em;}
+}
+@media only screen and  (min-device-width: 1366px) and (max-device-width: 1440px){
+.heading_dark a{
+    font-size: 15vh;}
+}
+@media only screen and  (min-device-width: 1440px) and (max-device-width: 1920px){
+.heading_dark a{
+    font-size: 24.3vh;}
+}

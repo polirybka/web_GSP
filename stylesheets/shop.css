@@ -1,0 +1,246 @@
+.under{
+  text-decoration: underline;
+}
+.shop_section{
+  margin-top: 1%;
+  display: grid;
+   grid-template-columns:repeat(2, 1fr);
+   grid-auto-rows:minmax(40vh, auto);
+}
+.lots_text{
+  font-family: 'Arsenal-Regular';
+  font-size: 1.25em;
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+}
+#lot_1_text_1{
+  margin-left: 29%;
+  margin-top: 10%;
+}
+#lot_1_text_2{
+  margin-left: 29%;
+  margin-top: 12%;
+}
+#lot_1_text_3{
+  margin-left: 29%;
+  margin-top: 27%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_1_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_1{
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 16%;
+  z-index: 2;
+}
+#lot_2_text_1{
+  margin-left: 80%;
+  margin-top: 10%;
+}
+#lot_2_text_2{
+  margin-left: 80%;
+  margin-top: 12%;
+}
+#lot_2_text_3{
+  margin-left: 80%;
+  margin-top: 27%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_2_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_2{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 16%;
+  z-index: 2;
+}
+#lot_3_text_1{
+  margin-left: 29%;
+  margin-top: 40%;
+}
+#lot_3_text_2{
+  margin-left: 29%;
+  margin-top: 42%;
+}
+#lot_3_text_3{
+  margin-left: 29%;
+  margin-top: 57%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_3_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_3{
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 46%;
+  z-index: 2;
+}
+#lot_4_text_1{
+  margin-left: 80%;
+  margin-top: 40%;
+}
+#lot_4_text_2{
+  margin-left: 80%;
+  margin-top: 42%;
+}
+#lot_4_text_3{
+  margin-left: 80%;
+  margin-top: 57%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_4_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_4{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 46%;
+  z-index: 2;
+}
+#lot_5_text_1{
+  margin-left: 29%;
+  margin-top: 70%;
+}
+#lot_5_text_2{
+  margin-left: 29%;
+  margin-top: 72%;
+}
+#lot_5_text_3{
+  margin-left: 29%;
+  margin-top: 87%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_5_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_5{
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 76%;
+  z-index: 2;
+}
+#lot_6_text_1{
+  margin-left: 80%;
+  margin-top: 70%;
+}
+#lot_6_text_2{
+  margin-left: 80%;
+  margin-top: 72%;
+}
+#lot_6_text_3{
+  margin-left: 80%;
+  margin-top: 87%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_6_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_6{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 76%;
+  z-index: 2;
+}
+#lot_7_text_1{
+  margin-left: 29%;
+  margin-top: 100%;
+  white-space: auto;
+}
+#lot_7_text_2{
+  margin-left: 29%;
+  margin-top: 103%;
+}
+#lot_7_text_3{
+  margin-left: 29%;
+  margin-top: 117%;
+  text-decoration: underline;
+  z-index: 2;
+}
+#lot_7_text_3:hover{
+  color: #CAFF44;
+}
+.shop_arrow_7{
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 106%;
+  z-index: 2;
+}
+.lot_1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.inside_lot_1{
+  margin-left: 18%;
+  width:35%;
+}
+.lot_2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.inside_lot_2{
+  margin-left: 15%;
+  margin-top: 19%;
+}
+.lot_3{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.inside_lot_3{
+  margin-left: 10%;
+  margin-top: 11%;
+  width: 45%;
+}
+.lot_4{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.inside_lot_4{
+  margin-left: 27%;
+  margin-top: 16%;
+  width: 26.1%;
+}
+.lot_5{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.inside_lot_5{
+  margin-left: 9%;
+  margin-top: 17%;
+  width:49%;
+}
+.lot_6{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.inside_lot_6{
+  margin-left: 13%;
+  margin-top: 12%;
+  width:52%;
+}
+.lot_7{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.inside_lot_7{
+  margin-left: 11%;
+  margin-top: 12%;
+  width:52%;
+}
+.thumb-item{
+  grid-column: 1/3;
+  grid-row: 1/5;
+  height:auto ;
+  overflow: hidden;
+  z-index: 0;
+}

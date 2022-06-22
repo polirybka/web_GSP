@@ -1,8 +1,9 @@
 @import "reset.css";
 @import "content.css";
-@import "event.css";
 @import "photo.css";
 @import "kvest_choose.css";
+@import "resposive.css";
+@import "shop.css";
 @font-face{
 	font-family: 'Piazzolla-Light';
 	src: url(../fonts/Piazzolla-Light.otf);

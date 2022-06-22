@@ -7,10 +7,9 @@
 }
 .heading_dark a{
   font-family: 'Piazzolla-Light';
-  font-size: 215px;
+  font-size: 24.3vh;
   position: absolute;
   color: white;
-  width:100%;
   margin-left: -30px;
   margin-top: -50px;
   white-space: nowrap;
@@ -37,6 +36,7 @@ nav{
   cursor: pointer;
   font-family: 'Arsenal-Regular';
   font-size: 24px;
+  text-decoration: none;
 }
 .menu-items_dark a:hover{
   color: #CAFF44;
