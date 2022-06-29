@@ -30,3 +30,50 @@
   left: 94%;
   top:38%;
 }
+.room_cover{
+  width:100vw;
+  margin-top:1.5%;
+  position: relative;
+}
+.description{
+  font-family: 'Arsenal-Regular';
+  font-size: 24px;
+  margin-top:3%;
+  margin-left:4%;
+  position: absolute;
+  color: white;
+  z-index:2;
+}
+.mode{
+  font-family: 'Arsenal-Regular';
+  font-size: 24px;
+  margin-top:3%;
+  margin-left:80%;
+  position: absolute;
+  color: white;
+  z-index:2;
+}
+.button_bron{
+  border: 2px solid white;
+  width: 15%;
+  height: 10vh;
+  margin-top:14%;
+  margin-left:4%;
+  line-height:10vh;
+  position: absolute;
+  font-family: 'Arsenal-Regular';
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+.button_bron:hover{
+  border: 2px solid #CAFF44;
+}
+.room_img_1{
+  margin-top:25%;
+  margin-left:4%;
+}
+.room_img_2{
+  margin-top:25%;
+  margin-left:5%;
+}

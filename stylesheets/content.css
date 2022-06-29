@@ -96,6 +96,15 @@ position: relative;
   opacity: 0%;
   animation: moveX_1 15s linear 0s infinite alternate, moveY_1 15s linear 0s infinite alternate;
 }
+#shop_1{
+  position: absolute;
+  z-index: 3;
+  width:14%;
+  margin-left:56%;
+  margin-top:3%;
+  opacity: 0%;
+  animation: moveX_1 15s linear 0s infinite alternate, moveY_1 15s linear 0s infinite alternate;
+}
 @keyframes moveX_1 {from {left: 0;} to {left: 6%;}}
 @keyframes moveY_1 {from {top: 0;} to {top: 3%;}}
 #photo_2{
@@ -112,6 +121,15 @@ position: relative;
   z-index: 3;
   width:4%;
   margin-left:43%;
+  margin-top:2.5%;
+  opacity: 0%;
+  animation: moveX_2 15s linear 0s infinite alternate, moveY_2 15s linear 0s infinite alternate;
+}
+#shop_2{
+  position: absolute;
+  z-index: 3;
+  width:11%;
+  margin-left:37%;
   margin-top:2.5%;
   opacity: 0%;
   animation: moveX_2 15s linear 0s infinite alternate, moveY_2 15s linear 0s infinite alternate;
@@ -136,6 +154,15 @@ position: relative;
   opacity: 0%;
   animation: moveX_3 15s linear 0s infinite alternate, moveY_3 15s linear 0s infinite alternate;
 }
+#shop_3{
+  position: absolute;
+  z-index: 3;
+  width:11%;
+  margin-left:10%;
+  margin-top:2.5%;
+  opacity: 0%;
+  animation: moveX_3 15s linear 0s infinite alternate, moveY_3 15s linear 0s infinite alternate;
+}
 @keyframes moveX_3 {from {left: 0;} to {left: 7%;}}
 @keyframes moveY_3 {from {top: 0;} to {top: 3%;}}
 #photo_4{
@@ -151,6 +178,15 @@ position: relative;
   position: absolute;
   z-index: 3;
   width:4%;
+  margin-left:80%;
+  margin-top:2.5%;
+  opacity: 0%;
+  animation: moveX_4 15s linear 0s infinite alternate, moveY_4 15s linear 0s infinite alternate;
+}
+#shop_4{
+  position: absolute;
+  z-index: 3;
+  width:5%;
   margin-left:80%;
   margin-top:2.5%;
   opacity: 0%;

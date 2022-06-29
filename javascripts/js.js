@@ -47,6 +47,16 @@ $('#p2').on({
    $('.pVAR2').css(
      'background', "-webkit-linear-gradient(#CAFF44, #FC2F17)");
   }
+})
+$('#p5').on({
+  mouseenter: function() {
+   $('.shop_hover').animate({
+     opacity: '100%'},350);
+ },
+ mouseleave: function() {
+   $('.shop_hover').animate({
+     opacity: '0%'},400);
+ }
   });
   });
 
