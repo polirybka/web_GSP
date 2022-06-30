@@ -232,11 +232,10 @@ position: relative;
   width: 15vw;
   font-size: 3vh;
   position: relative;
-  margin-left: 50vw;
+  margin-left: 70vw;
   margin-top: 50vw;
 }
 #name{
-  margin-left: 50vw;
   margin-top: 15vw;
 }
 #name2{
@@ -250,10 +249,55 @@ position: relative;
 }
 .submit{
   color:white;
+  margin-top: 1vw;
+  margin-left: 70vw;
+  position: relative;
+  font-family: 'Arsenal-Regular';
+  font-size: 1.2vw;
 }
 .submit:hover{
   color: #CAFF44;
-  position: relative;
-  font-family: 'Piazzolla-Light';
-  font-size: 12.5vw;
+
+}
+.karta{
+margin-top: 20rem;
+margin-left: 4rem;
+filter: hue-rotate(80deg);
+opacity: 80%;
+}
+.sad{
+background-image: url(../img/contacts_back.png);
+background-repeat:no-repeat;
+background-size: cover;
+
+}
+.work_hours{
+  font-family: 'Arsenal-Regular';
+  font-size: 1.4vw;
+  margin-top:13%;
+  margin-left:4%;
+  position: absolute;
+  color: white;
+  z-index:2;
+}
+.number{
+  font-family: 'Arsenal-Regular';
+  font-size: 1.4vw;
+  margin-top:13%;
+  margin-left:39%;
+  position: absolute;
+  color: white;
+  z-index:2;
+}
+.about_img_1{
+  width:30vw;
+  position: absolute;
+  margin-top: 11%;
+  margin-left:4%;
+}
+.about_img_2{
+  width:30vw;
+  position: absolute;
+  margin-top: 18%;
+  margin-left:40%;
 }

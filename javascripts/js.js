@@ -69,20 +69,6 @@ mouseleave: function() {
    $('body').css('background', 'black');
  }
 })
- $('.poster2').on({
- mouseenter: function() {
-    $('body').css({
-      WebkitTransition : 'opacity 1s ease-in-out',
-    MozTransition    : 'opacity 1s ease-in-out',
-    MsTransition     : 'opacity 1s ease-in-out',
-    OTransition      : 'opacity 1s ease-in-out',
-    transition       : 'opacity 1s ease-in-out',
-      background: "url(./img/background_poster_2.png)"});
- },
- mouseleave: function() {
-    $('body').css({'background':"black","transition":"2s"});
-  }
-  })
   $('.poster3').on({
   mouseenter: function() {
      $('body').css('background', "url(./img/background_poster_3.png)");

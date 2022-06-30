@@ -52,6 +52,9 @@ body{
   margin-left: 5%;
   z-index:3;
 }
+.poster5:hover{
+  outline: 2px solid #CAFF44;
+}
 .poster6{
   position: relative;
   display: block;
@@ -59,6 +62,9 @@ body{
   margin-top: 3%;
   margin-left: 5%;
   z-index:3;
+}
+.poster6:hover{
+  outline: 2px solid #CAFF44;
 }
 txt1{
   position: absolute;
