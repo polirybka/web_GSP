@@ -289,6 +289,16 @@ background-size: cover;
   color: white;
   z-index:2;
 }
+.description_2{
+  font-family: 'Arsenal-Regular';
+  font-size: 1.4vw;
+  margin-top:20%;
+  margin-left:57%;
+  position: absolute;
+  color: white;
+  z-index:2;
+  line-height: normal;
+}
 .about_img_1{
   width:30vw;
   position: absolute;
@@ -298,6 +308,6 @@ background-size: cover;
 .about_img_2{
   width:30vw;
   position: absolute;
-  margin-top: 18%;
-  margin-left:40%;
+  margin-top: 24%;
+  margin-left:56%;
 }

@@ -98,6 +98,26 @@
   font-size: 1.5vw;
   color: black;
 }
+.footer3{
+  margin-top:4%;
+  position: absolute;
+  margin-top:48%;
+  width: 100vw;
+  height:13vh;
+  font-family: 'Arsenal-Regular';
+  font-size: 1.5vw;
+  background-color: #CAFF44;
+}
+.footer4{
+  margin-top:4%;
+  position: absolute;
+  margin-top:285%;
+  width: 100vw;
+  height:13vh;
+  font-family: 'Arsenal-Regular';
+  font-size: 1.5vw;
+  background-color: #CAFF44;
+}
 #adr{
   margin-left:4%;
   margin-top: 1.5%;
