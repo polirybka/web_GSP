@@ -42,12 +42,7 @@ $(document).ready(function() {
       opacity: '0%'},400);
   }
 })
-$('#p2').on({
-  mouseenter: function() {
-   $('.pVAR2').css(
-     'background', "-webkit-linear-gradient(#CAFF44, #FC2F17)");
-  }
-})
+
 $('#p5').on({
   mouseenter: function() {
    $('.shop_hover').animate({
