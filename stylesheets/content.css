@@ -194,3 +194,66 @@ position: relative;
 }
 @keyframes moveX_4 {from {left: 0;} to {left: 4%;}}
 @keyframes moveY_4 {from {top: 0;} to {top: 3%;}}
+
+.fail{
+  text-align: center;
+  font-size: 5vw;
+}
+.circling{
+    left: 500px;
+    position: absolute;
+    top: 200px;
+    transform: rotate(45deg) translateX(150px) rotate(-45deg);
+    -webkit-animation: ort 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: ort 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: ort 4s linear infinite; /* Opera 12+ */
+            animation: ort 4s linear infinite;
+}
+@-webkit-keyframes ort {
+ from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+ to   {  -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes ort {
+ from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+ to   {  -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes ort {
+ from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+ to   {  -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes ort {
+ from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+ to   {  transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+.name, .name2, .email{
+  width: 15vw;
+  font-size: 3vh;
+  position: relative;
+  margin-left: 50vw;
+  margin-top: 50vw;
+}
+#name{
+  margin-left: 50vw;
+  margin-top: 15vw;
+}
+#name2{
+  margin-top: 1vw;
+}
+#email{
+  margin-top: 1vw;
+}
+.borderr{
+  border: 2px solid #FFFFFF;
+}
+.submit{
+  color:white;
+}
+.submit:hover{
+  color: #CAFF44;
+  position: relative;
+  font-family: 'Piazzolla-Light';
+  font-size: 12.5vw;
+}

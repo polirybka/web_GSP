@@ -10,7 +10,7 @@ body{
   z-index:3;
   display: inline-block;
 }
-.description{
+.description_event{
   line-height: 20px;
   color:white;
   cursor: pointer;

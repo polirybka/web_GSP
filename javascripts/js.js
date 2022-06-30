@@ -100,7 +100,13 @@ mouseleave: function() {
     }
 });
 });
-
+$(function(){
+  $(".submit").click(function(){
+    $( ".name" ).val("");
+    $( ".name2" ).val("");
+    $( ".email" ).val("");
+});
+});
   // $('body').css({'background': "url(./img/background_poster_2.png)","transition":"2s"});
 // $(document).ready(function() {
 //   $('#p1').hover(function() {

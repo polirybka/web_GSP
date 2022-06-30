@@ -1,17 +1,17 @@
 .heading_dark{
   display: block;
   width:100vw;
-  height:210px;
+  height:13vw;
   position: relative;
   overflow: hidden;
 }
 .heading_dark a{
   font-family: 'Piazzolla-Light';
-  font-size: 24.3vh;
+  font-size: 12.5vw;
   position: absolute;
   color: white;
-  margin-left: -30px;
-  margin-top: -50px;
+  margin-left: -2vw;
+  margin-top: -3vw;
   white-space: nowrap;
   text-decoration: none;
 }
@@ -35,7 +35,7 @@ nav{
   color:white;
   cursor: pointer;
   font-family: 'Arsenal-Regular';
-  font-size: 24px;
+  font-size: 1.5vw;
   text-decoration: none;
 }
 .menu-items_dark a:hover{
